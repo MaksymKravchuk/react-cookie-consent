@@ -10,6 +10,7 @@ export interface CookieConsentProps {
   children?: React.ReactNode;
   disableStyles?: boolean;
   hideOnAccept?: boolean;
+  hideOnDecline?: boolean;
   onAccept?: Function;
   onDecline?: Function;
   buttonText?: Function | React.ReactNode;
